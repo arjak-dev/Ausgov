@@ -1,0 +1,14 @@
+name: ausgov
+type: theme
+description: This theme is for asugov
+core: 8.x
+base theme: bootstrap_barrio
+
+region:
+  header: Header
+  content: Content
+  sidebar_first: Sidebar First
+  footer: footer
+  
+libaries:
+  - ausgov/global-css
