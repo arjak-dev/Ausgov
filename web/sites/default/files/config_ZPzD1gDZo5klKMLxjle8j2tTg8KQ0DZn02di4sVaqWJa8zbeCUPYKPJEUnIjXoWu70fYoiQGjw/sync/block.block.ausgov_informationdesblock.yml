@@ -1,0 +1,31 @@
+uuid: be468322-2880-4af1-8160-051d995a92f2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:8fe1562d-c677-4443-8038-8b09d2ac5580'
+  module:
+    - block_content
+    - system
+  theme:
+    - ausgov
+id: ausgov_informationdesblock
+theme: ausgov
+region: content
+weight: -3
+provider: null
+plugin: 'block_content:8fe1562d-c677-4443-8038-8b09d2ac5580'
+settings:
+  id: 'block_content:8fe1562d-c677-4443-8038-8b09d2ac5580'
+  label: 'Information des Block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/information-and-services"
+    negate: false
+    context_mapping: {  }

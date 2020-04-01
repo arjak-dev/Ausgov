@@ -1,0 +1,25 @@
+uuid: e73314d5-3706-4b44-87eb-5a41aa170ba0
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.menu-bar-
+  module:
+    - system
+  theme:
+    - bootstrap_barrio_subtheme
+id: bootstrap_barrio_subtheme_menubar
+theme: bootstrap_barrio_subtheme
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:menu-bar-'
+settings:
+  id: 'system_menu_block:menu-bar-'
+  label: 'Menu Bar '
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

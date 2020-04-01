@@ -1,0 +1,29 @@
+uuid: 43dafe4c-cdee-4bde-ae03-90b8329d403d
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.information_and_services
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap_barrio_subtheme
+id: exposedforminformation_and_servicespage_1
+theme: bootstrap_barrio_subtheme
+region: content
+weight: -9
+provider: null
+plugin: 'views_exposed_filter_block:information_and_services-page_1'
+settings:
+  id: 'views_exposed_filter_block:information_and_services-page_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

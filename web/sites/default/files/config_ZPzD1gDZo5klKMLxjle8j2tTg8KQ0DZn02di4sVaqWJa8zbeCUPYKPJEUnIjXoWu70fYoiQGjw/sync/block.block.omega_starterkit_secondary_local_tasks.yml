@@ -1,0 +1,22 @@
+uuid: 7432470a-c7aa-4aba-a2bb-3e6c8fd8281b
+langcode: en
+status: true
+dependencies:
+  theme:
+    - omega_starterkit
+_core:
+  default_config_hash: QeZBeCilQfeET3GeW6ZtJkEiwROADTZktFgKWwPieD4
+id: omega_starterkit_secondary_local_tasks
+theme: omega_starterkit
+region: header
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  provider: core
+  label_display: '0'
+  primary: false
+  secondary: true
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: b4fd1d8e-5a8e-4422-abc6-f97f138a267b
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.news_origin_
+  module:
+    - text
+id: taxonomy_term.news_origin_.description
+field_name: description
+entity_type: taxonomy_term
+bundle: news_origin_
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

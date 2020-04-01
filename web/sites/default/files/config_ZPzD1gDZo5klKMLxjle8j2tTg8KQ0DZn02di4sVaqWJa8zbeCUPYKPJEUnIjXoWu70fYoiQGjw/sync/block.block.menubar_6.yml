@@ -1,0 +1,25 @@
+uuid: 9d4c3921-a9bc-4bea-aadc-1b6f02e8053e
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.menu-bar-
+  module:
+    - system
+  theme:
+    - bootstrap
+id: menubar_6
+theme: bootstrap
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:menu-bar-'
+settings:
+  id: 'system_menu_block:menu-bar-'
+  label: 'Menu Bar '
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

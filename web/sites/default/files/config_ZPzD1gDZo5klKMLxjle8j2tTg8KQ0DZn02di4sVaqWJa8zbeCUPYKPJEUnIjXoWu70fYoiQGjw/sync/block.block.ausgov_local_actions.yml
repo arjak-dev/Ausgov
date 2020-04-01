@@ -1,0 +1,20 @@
+uuid: 2d092c82-b711-41df-b749-665db090ce2e
+langcode: en
+status: true
+dependencies:
+  theme:
+    - ausgov
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: ausgov_local_actions
+theme: ausgov
+region: content
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,30 @@
+uuid: 60848c7b-9e57-4094-84e4-00466c5ec893
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.content.body
+    - node.type.content
+  module:
+    - text
+    - user
+id: node.content.default
+targetEntityType: node
+bundle: content
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 300
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

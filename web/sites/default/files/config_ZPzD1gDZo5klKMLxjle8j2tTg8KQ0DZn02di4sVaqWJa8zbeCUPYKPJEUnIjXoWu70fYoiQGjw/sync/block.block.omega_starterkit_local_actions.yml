@@ -1,0 +1,20 @@
+uuid: 10b68c61-7ece-4a43-b7f2-eee865818996
+langcode: en
+status: true
+dependencies:
+  theme:
+    - omega_starterkit
+_core:
+  default_config_hash: HHryZVJbeKi9WnuBGC8FOhBZmBnk2G1H6KxFuy-rC9A
+id: omega_starterkit_local_actions
+theme: omega_starterkit
+region: content
+weight: -10
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

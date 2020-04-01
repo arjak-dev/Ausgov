@@ -1,0 +1,30 @@
+uuid: b1a2f540-ce7c-4e4f-ab20-2748e7a8d106
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.information_and_services
+  module:
+    - system
+    - views
+  theme:
+    - ausgov
+id: ausgov_views_block__information_and_services_block_1
+theme: ausgov
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:information_and_services-block_1'
+settings:
+  id: 'views_block:information_and_services-block_1'
+  label: 'Popular Links'
+  provider: views
+  label_display: visible
+  views_label: 'Popular Links'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "<fornt>\r\n/information-and-services"
+    negate: false
+    context_mapping: {  }

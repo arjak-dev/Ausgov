@@ -1,0 +1,8 @@
+display:
+  default:
+    display_options:
+      title: "\r\nहाल की सामग्री"
+  page_1:
+    display_options:
+      menu:
+        title: "\r\nहाल की सामग्री"

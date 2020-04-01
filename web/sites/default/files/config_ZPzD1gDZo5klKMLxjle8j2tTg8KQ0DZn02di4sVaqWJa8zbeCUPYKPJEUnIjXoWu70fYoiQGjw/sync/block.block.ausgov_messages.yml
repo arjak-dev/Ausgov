@@ -1,0 +1,22 @@
+uuid: bb4eb67f-a534-45a3-aff5-6c47f545cffd
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ausgov
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: ausgov_messages
+theme: ausgov
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

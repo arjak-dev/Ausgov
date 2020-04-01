@@ -1,0 +1,28 @@
+uuid: 2213fd99-62e6-4dd4-9574-0bf089059d70
+langcode: en
+status: true
+dependencies: {  }
+id: event_creator
+label: 'Event Creator'
+weight: 5
+is_admin: null
+permissions:
+  - 'access content'
+  - 'access content overview'
+  - 'access toolbar'
+  - 'administer content translation'
+  - 'administer node display'
+  - 'administer node fields'
+  - 'administer node form display'
+  - 'administer user form display'
+  - 'create events content'
+  - 'create url aliases'
+  - 'delete own events content'
+  - 'edit own events content'
+  - 'translate news node'
+  - 'use admin toolbar search'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition reviw_to_draft'
+  - 'use text format restricted_html'
+  - 'view any unpublished content'
+  - 'view own unpublished content'

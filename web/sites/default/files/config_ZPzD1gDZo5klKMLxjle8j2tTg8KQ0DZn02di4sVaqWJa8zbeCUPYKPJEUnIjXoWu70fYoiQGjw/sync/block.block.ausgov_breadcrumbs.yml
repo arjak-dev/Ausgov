@@ -1,0 +1,22 @@
+uuid: 7276bb68-535f-4ebd-9040-5f8735436ef3
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ausgov
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: ausgov_breadcrumbs
+theme: ausgov
+region: breadcrumb
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

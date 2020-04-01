@@ -1,0 +1,31 @@
+uuid: bf299d06-8566-44d5-b73d-8238c6457a7d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:8fe1562d-c677-4443-8038-8b09d2ac5580'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap_barrio_subtheme
+id: informationdesblock
+theme: bootstrap_barrio_subtheme
+region: content
+weight: -10
+provider: null
+plugin: 'block_content:8fe1562d-c677-4443-8038-8b09d2ac5580'
+settings:
+  id: 'block_content:8fe1562d-c677-4443-8038-8b09d2ac5580'
+  label: 'Information des Block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "\r\n/information-and-services"
+    negate: false
+    context_mapping: {  }

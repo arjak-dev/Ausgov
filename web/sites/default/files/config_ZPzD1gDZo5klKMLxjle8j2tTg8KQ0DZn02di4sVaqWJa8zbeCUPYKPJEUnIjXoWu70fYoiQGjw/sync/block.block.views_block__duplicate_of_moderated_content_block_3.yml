@@ -1,0 +1,38 @@
+uuid: eb66c16f-50a9-4932-958d-4f202092124d
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.duplicate_of_moderated_content
+  module:
+    - system
+    - user
+    - views
+  theme:
+    - bootstrap_barrio_subtheme
+id: views_block__duplicate_of_moderated_content_block_3
+theme: bootstrap_barrio_subtheme
+region: content
+weight: -6
+provider: null
+plugin: 'views_block:duplicate_of_moderated_content-block_3'
+settings:
+  id: 'views_block:duplicate_of_moderated_content-block_3'
+  label: 'Unpublished Content'
+  provider: views
+  label_display: visible
+  views_label: 'Unpublished Content'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      news_creator: news_creator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

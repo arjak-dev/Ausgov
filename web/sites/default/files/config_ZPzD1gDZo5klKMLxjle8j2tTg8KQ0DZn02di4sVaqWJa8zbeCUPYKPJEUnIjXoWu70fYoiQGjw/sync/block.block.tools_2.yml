@@ -1,0 +1,30 @@
+uuid: 619f1d26-470f-4dd7-b019-c0d15363e384
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - bootstrap_barrio_subtheme
+id: tools_2
+theme: bootstrap_barrio_subtheme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    pages: '/admin/*'
+    negate: false
+    context_mapping: {  }

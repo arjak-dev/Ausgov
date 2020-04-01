@@ -1,0 +1,22 @@
+uuid: 3b9b1de2-7f10-4a31-b2b1-318e511b9bbf
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - ausgov
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: ausgov_help
+theme: ausgov
+region: content
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

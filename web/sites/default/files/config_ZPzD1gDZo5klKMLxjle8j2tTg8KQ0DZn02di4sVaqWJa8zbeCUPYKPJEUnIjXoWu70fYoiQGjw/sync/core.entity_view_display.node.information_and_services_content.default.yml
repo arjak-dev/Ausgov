@@ -1,0 +1,29 @@
+uuid: 50a03a08-3c8f-49d3-bfcb-ff9adb5a4827
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.information_and_services_content.body
+    - node.type.information_and_services_content
+  module:
+    - text
+    - user
+id: node.information_and_services_content.default
+targetEntityType: node
+bundle: information_and_services_content
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

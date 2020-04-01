@@ -1,0 +1,22 @@
+uuid: 71a4bc08-b1bc-4a71-b714-610f83c4885a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - omega_starterkit
+_core:
+  default_config_hash: WWu2OQswgCztl9OeXjD1stexIEMZsSgPMYIdC-JHx9c
+id: omega_starterkit_breadcrumbs
+theme: omega_starterkit
+region: header
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

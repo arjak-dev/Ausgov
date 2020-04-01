@@ -1,0 +1,22 @@
+uuid: e717b6b4-af37-4a22-a947-e46b82bea3f7
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - omega_starterkit
+_core:
+  default_config_hash: NU5A_49mwLHfs5xFzMFrZ850w9pgUolxMS9NNF3vv4c
+id: omega_starterkit_help
+theme: omega_starterkit
+region: header
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,15 @@
+uuid: e51d73ac-7d3d-40ae-83da-b99bf7dd3fab
+langcode: en
+status: true
+dependencies: {  }
+id: content_creator
+label: 'Content Creator'
+weight: 4
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'create content content'
+  - 'delete own content content'
+  - 'edit own content content'
+  - 'use text format restricted_html'
+  - 'view own unpublished content'

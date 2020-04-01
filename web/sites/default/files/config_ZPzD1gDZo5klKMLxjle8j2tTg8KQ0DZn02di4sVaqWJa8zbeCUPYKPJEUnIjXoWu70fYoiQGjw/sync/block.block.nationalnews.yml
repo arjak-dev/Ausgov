@@ -1,0 +1,31 @@
+uuid: 90ff988c-3215-4ea8-baf9-278683461bf6
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:news_category:e92b1ba9-e0fe-4cc7-9ac4-bf89b2d4db85'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap_barrio_subtheme
+id: nationalnews
+theme: bootstrap_barrio_subtheme
+region: sidebar_first
+weight: -9
+provider: null
+plugin: 'block_content:e92b1ba9-e0fe-4cc7-9ac4-bf89b2d4db85'
+settings:
+  id: 'block_content:e92b1ba9-e0fe-4cc7-9ac4-bf89b2d4db85'
+  label: 'National News'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /news
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,30 @@
+uuid: 90a7638e-f4af-4d5a-a076-329d8b06ba6d
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - bootstrap_barrio_subtheme
+id: useraccountmenu
+theme: bootstrap_barrio_subtheme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    pages: '/admin/*'
+    negate: true
+    context_mapping: {  }

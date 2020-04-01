@@ -1,0 +1,25 @@
+uuid: 7f8c9777-0e61-4b12-ae5b-289d57cf2d54
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.menu-bar-
+  module:
+    - system
+  theme:
+    - bartik
+id: menubar_2
+theme: bartik
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:menu-bar-'
+settings:
+  id: 'system_menu_block:menu-bar-'
+  label: 'Menu Bar '
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 3
+  expand_all_items: false
+visibility: {  }

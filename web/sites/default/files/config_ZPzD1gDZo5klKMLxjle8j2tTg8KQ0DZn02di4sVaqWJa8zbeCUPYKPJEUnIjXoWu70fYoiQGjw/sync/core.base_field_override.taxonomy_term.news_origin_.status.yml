@@ -1,0 +1,22 @@
+uuid: b9ac52cd-bc8e-4aa7-bcb7-43aad8be1e9a
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.news_origin_
+id: taxonomy_term.news_origin_.status
+field_name: status
+entity_type: taxonomy_term
+bundle: news_origin_
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

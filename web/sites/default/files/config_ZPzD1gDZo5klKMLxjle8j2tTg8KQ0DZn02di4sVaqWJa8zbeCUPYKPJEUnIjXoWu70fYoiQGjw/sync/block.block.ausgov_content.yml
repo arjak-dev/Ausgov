@@ -1,0 +1,22 @@
+uuid: f040e3bc-2f1b-42ac-959b-e1a58ad8f1bd
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - ausgov
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: ausgov_content
+theme: ausgov
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: 3e314405-6d35-4873-b63d-7c5e9ddf21c7
+langcode: en
+status: true
+dependencies:
+  theme:
+    - ausgov
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: ausgov_page_title
+theme: ausgov
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

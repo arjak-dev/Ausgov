@@ -1,0 +1,56 @@
+uuid: 6d9c1dfe-0674-4de1-94c8-a582b4a521f7
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.news
+    - field.field.node.events.body
+    - field.field.node.events.field_date
+    - field.field.node.events.field_tag
+    - node.type.events
+  module:
+    - datetime
+    - text
+    - user
+id: node.events.news
+targetEntityType: node
+bundle: events
+mode: news
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 2
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  content_moderation_control:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_date:
+    weight: 1
+    label: inline
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_tag:
+    weight: 4
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

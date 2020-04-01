@@ -1,0 +1,31 @@
+uuid: 81908c9a-4e7a-4733-8e51-414d552a82e9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:news_category:f407331e-b01c-434b-acdf-88678fceab32'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap_barrio_subtheme
+id: internation
+theme: bootstrap_barrio_subtheme
+region: sidebar_first
+weight: -10
+provider: null
+plugin: 'block_content:f407331e-b01c-434b-acdf-88678fceab32'
+settings:
+  id: 'block_content:f407331e-b01c-434b-acdf-88678fceab32'
+  label: Internation
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/news\r\n"
+    negate: false
+    context_mapping: {  }

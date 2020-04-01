@@ -1,0 +1,8 @@
+uuid: 7a3e19ae-268a-47dc-a620-dd3ba9c8ea1f
+langcode: en
+status: true
+dependencies: {  }
+id: event-type
+label: 'Event Type'
+description: ''
+locked: false

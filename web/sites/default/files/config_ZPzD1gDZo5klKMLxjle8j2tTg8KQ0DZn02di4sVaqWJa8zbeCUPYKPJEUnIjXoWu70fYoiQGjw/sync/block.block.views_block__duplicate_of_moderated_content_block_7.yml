@@ -1,0 +1,38 @@
+uuid: 7b294ed7-1562-447d-b154-ccbc1366a26c
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.duplicate_of_moderated_content
+  module:
+    - system
+    - user
+    - views
+  theme:
+    - bootstrap_barrio_subtheme
+id: views_block__duplicate_of_moderated_content_block_7
+theme: bootstrap_barrio_subtheme
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:duplicate_of_moderated_content-block_7'
+settings:
+  id: 'views_block:duplicate_of_moderated_content-block_7'
+  label: 'Event Review'
+  provider: views
+  label_display: visible
+  views_label: 'Event Review'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n"
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      event_creator: event_creator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

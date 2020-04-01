@@ -1,0 +1,38 @@
+uuid: d9ebd630-0d8b-4f7c-b6e6-3bbd8c82e6f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.duplicate_of_moderated_content
+  module:
+    - system
+    - user
+    - views
+  theme:
+    - bootstrap_barrio_subtheme
+id: views_block__duplicate_of_moderated_content_block_2
+theme: bootstrap_barrio_subtheme
+region: content
+weight: -7
+provider: null
+plugin: 'views_block:duplicate_of_moderated_content-block_2'
+settings:
+  id: 'views_block:duplicate_of_moderated_content-block_2'
+  label: 'Current Content Works'
+  provider: views
+  label_display: visible
+  views_label: 'Current Content Works'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      news_creator: news_creator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

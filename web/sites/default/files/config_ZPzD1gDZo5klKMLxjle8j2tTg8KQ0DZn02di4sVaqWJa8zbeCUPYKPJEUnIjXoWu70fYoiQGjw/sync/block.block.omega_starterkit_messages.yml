@@ -1,0 +1,22 @@
+uuid: 22996e04-454f-4440-903b-73e2a50667f3
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - omega_starterkit
+_core:
+  default_config_hash: XJqWwLt1LDCnazcEN6QkJmCLjk4R0__-8s0OO9xeNjg
+id: omega_starterkit_messages
+theme: omega_starterkit
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

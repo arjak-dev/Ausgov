@@ -1,0 +1,25 @@
+uuid: 4a0da931-f954-4b34-9867-4d06725d0e36
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.menu-bar-
+  module:
+    - system
+  theme:
+    - adminimal_theme
+id: menubar_7
+theme: adminimal_theme
+region: pre_content
+weight: 0
+provider: null
+plugin: 'system_menu_block:menu-bar-'
+settings:
+  id: 'system_menu_block:menu-bar-'
+  label: 'Menu Bar '
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

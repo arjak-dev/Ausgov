@@ -1,0 +1,8 @@
+uuid: a71efe17-8e19-4b72-89d6-a8f926ed0343
+langcode: en
+status: true
+dependencies: {  }
+name: 'News Origin'
+vid: news_origin_
+description: 'It define from where the news come from or which type of news it is international or national'
+weight: 0

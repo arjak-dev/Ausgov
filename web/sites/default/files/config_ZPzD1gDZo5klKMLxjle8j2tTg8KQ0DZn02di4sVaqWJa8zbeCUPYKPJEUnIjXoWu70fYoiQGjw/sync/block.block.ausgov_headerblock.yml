@@ -1,0 +1,25 @@
+uuid: 2a98a61c-e920-484a-8606-f155209c3b29
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e6ca926b-fdbc-4563-b344-0b18a1e91381'
+  module:
+    - block_content
+  theme:
+    - ausgov
+id: ausgov_headerblock
+theme: ausgov
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:e6ca926b-fdbc-4563-b344-0b18a1e91381'
+settings:
+  id: 'block_content:e6ca926b-fdbc-4563-b344-0b18a1e91381'
+  label: 'Header Block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
